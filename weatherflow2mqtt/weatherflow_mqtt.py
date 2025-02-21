@@ -102,7 +102,7 @@ class WeatherFlowUdpConfig(HostPortConfig):
     """Dataclass to define a UDP configuration."""
 
     host: str = "0.0.0.0"
-    port: int = 50222
+    port: int =  63746
 
 
 class WeatherFlowMqtt:
